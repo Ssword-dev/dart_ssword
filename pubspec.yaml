@@ -1,0 +1,17 @@
+name: ssword
+description: a linter that enforces @internal and more! (assuming such does not exist yet)
+version: 1.0.0
+# TODO: add a repo
+
+environment:
+  sdk: ^3.7.2
+
+# Add regular dependencies here.
+dependencies:
+  custom_lint_builder: ^0.7.5
+  analyzer: ^7.3.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
+  custom_lint: ^0.7.5
